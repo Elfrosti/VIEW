@@ -5,13 +5,13 @@ div.header {
   background-color: white;
   width: 87.5%;
   height: 10.86%;
-  float: left;
-
   position: fixed;
 }
 div.sidebar {
   background-color: white;
-  width: 12.5%;
-  height: max-content;
+  width: 22.5%;
+  height: 100%;
+  float: left;
+  margin-left: 0px;
   position: fixed;
 }
