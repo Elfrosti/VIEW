@@ -1,0 +1,17 @@
+body {
+  background: rgb(114, 109, 101);
+}
+div.header {
+  background-color: white;
+  width: 87.5%;
+  height: 10.86%;
+  float: left;
+
+  position: fixed;
+}
+div.sidebar {
+  background-color: white;
+  width: 12.5%;
+  height: max-content;
+  position: fixed;
+}
