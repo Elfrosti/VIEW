@@ -54,9 +54,8 @@ img {
   color: black;
 }
 
-.card-container .card {
-  width: 10px;
-  height: 15px;
+.card-container .tabella {
+
   border: 1px;
   border-color: #333333;
   font-size: 1.6px;
@@ -118,18 +117,30 @@ button {
   margin: auto;
 }
 
+.cellatitolo{
+  width: 300px;
+height: 10px;
+line-height: 35px;
+text-align:center;
+display: table-cell;
+font-weight: bold;
+padding-top: 5px;
+}
+
 .cellacentrale{
   margin: auto;
-  width: 80%;
+  width: 95%;
   padding:20px;
+  
 }
 
 
 .tabella{
 display: table;
 background-color: white;
-border: 1px solid;
+border: 1px rgb(182, 182, 182) solid;
 }
+
 .riga{
 display: table-row;
 }
@@ -140,10 +151,9 @@ line-height: 0.5px;
 font-weight: bold;
 }
 .cella{
-width: 300px;
+width: 350px;
 height: 10px;
 line-height: 35px;
-
 text-align:left;
 display: table-cell;
 }
@@ -155,7 +165,14 @@ display: table-cell;
 
 .spancard{
   padding-left: 25px;
-  padding-right: 75px;
+  padding-right:25px;
+}
+span{
+  width: 50%;
+}
+.spancard2{
+  
+  padding-left: 50px;
 }
 
 
