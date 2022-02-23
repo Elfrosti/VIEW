@@ -64,13 +64,17 @@ img {
   margin-top: 2px;
   margin-left: 2px;
 }
+.card-container{
+  display: inline-block;
+}
 .main-container {
   padding-left: 17%;
   padding-top: 7.5rem;
 }
 
 td {
-  padding: 6px 5px;
+  padding: 6px;
+  
 }
 
 .centro {
@@ -98,17 +102,26 @@ table {
   border: 1px solid #3333338f;
   height: 380px;
   width: 350;
-  padding-left: 50px ;
+  margin-top: 10;
+  border-collapse: collapse;
 }
+
+
 .hrcard {
   width: 100%;
 }
 .header {
   text-align: center;
   font-weight: bold;
+  padding-top: 17px;
+  padding-bottom: 5px;
+
+
 }
 
 table tr .centro a {
   color: rgb(199, 27, 27);
   text-decoration: none;
+
 }
+
