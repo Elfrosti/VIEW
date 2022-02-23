@@ -112,12 +112,17 @@ button {
   padding-bottom: 5px;
 }
 
-table tr .centro a {
+.cellacentrale a {
   color: rgb(199, 27, 27);
   text-decoration: none;
+  margin: auto;
 }
 
-
+.cellacentrale{
+  margin: auto;
+  width: 80%;
+  padding:20px;
+}
 
 
 .tabella{
@@ -128,18 +133,30 @@ border: 1px solid;
 .riga{
 display: table-row;
 }
-.cella{
-width: 200px;
-height: 60px;
-line-height: 60px;
 
-text-align:center;
+.celladati{
+height: 15px;
+line-height: 0.5px;
+font-weight: bold;
+}
+.cella{
+width: 300px;
+height: 10px;
+line-height: 35px;
+
+text-align:left;
 display: table-cell;
 }
+
 /*.cella1{
   text-align: center;
  
 }*/
+
+.spancard{
+  padding-left: 25px;
+  padding-right: 75px;
+}
 
 
 
