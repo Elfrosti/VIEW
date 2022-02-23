@@ -2,9 +2,10 @@ body {
   background: rgb(209, 209, 209);
   font-family: Arial, Helvetica, sans-serif;
 }
+
 div.menu {
   background-color: white;
-  width: 74.5%;
+
   height: 6rem;
   position: fixed;
   top: 0px;
@@ -31,6 +32,7 @@ img {
   color: #333333;
   font-size: 2rem;
   text-decoration: none;
+
 }
 
 .menu .item.selected {
@@ -39,4 +41,9 @@ img {
 
 .menu ul {
   width: 100%;
+  font-weight: bold;
+  color: #333333;
+  text-align: left;
+  font-style: normal;
+  margin-left: 25% ;
 }
