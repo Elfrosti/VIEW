@@ -4,7 +4,7 @@ body {
 div.main-container {
   background-color: white;
   width: 74.5%;
-  height: 10.86%;
+  height: 6rem;
   position: fixed;
   top: 0px;
   right: 0px;
@@ -19,3 +19,7 @@ div.sidebar {
   top: 0px;
   border-right: 2px solid rgba(241, 241, 241, 0.603);
 }
+img {
+  height: 5.5rem;
+}
+
