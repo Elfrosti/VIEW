@@ -22,5 +22,16 @@ div.sidebar {
 img {
   height: 5.5rem;
 }
+.menu .item {
+  display: inline-block;
+}
 
+.menu .item a {
+  color: #333333;
+  font-size: 2rem;
+  text-decoration: none;
+}
 
+.menu .item.selected {
+  border-bottom: 3px solid red;
+}
