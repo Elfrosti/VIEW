@@ -3,15 +3,18 @@ body {
 }
 div.header {
   background-color: white;
-  width: 87.5%;
+  width: 75%;
   height: 10.86%;
   position: fixed;
+  top: 0px;
+  right: 0px;
+  display: block;
 }
 div.sidebar {
   background-color: white;
-  width: 22.5%;
+  width: 25%;
   height: 100%;
-  float: left;
-  ;
+  left: 0px;
   position: fixed;
+  top: 0px;
 }
