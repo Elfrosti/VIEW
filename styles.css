@@ -55,7 +55,6 @@ img {
 }
 
 .card-container .card {
-  display: inline-block;
   width: 10px;
   height: 15px;
   border: 1px;
@@ -63,8 +62,6 @@ img {
   font-size: 1.6px;
   margin-top: 2px;
   margin-left: 2px;
-}
-.card-container{
   display: inline-block;
 }
 .main-container {
@@ -74,7 +71,6 @@ img {
 
 td {
   padding: 6px;
-  
 }
 
 .centro {
@@ -97,15 +93,14 @@ button {
   cursor: pointer;
 }
 
-table {
+/*table {
   background-color: white;
   border: 1px solid #3333338f;
   height: 380px;
   width: 350;
   margin-top: 10;
   border-collapse: collapse;
-}
-
+} */
 
 .hrcard {
   width: 100%;
@@ -115,13 +110,37 @@ table {
   font-weight: bold;
   padding-top: 17px;
   padding-bottom: 5px;
-
-
 }
 
 table tr .centro a {
   color: rgb(199, 27, 27);
   text-decoration: none;
-
 }
+
+
+
+
+.tabella{
+display: table;
+background-color: white;
+border: 1px solid;
+}
+.riga{
+display: table-row;
+}
+.cella{
+width: 200px;
+height: 60px;
+line-height: 60px;
+
+text-align:center;
+display: table-cell;
+}
+/*.cella1{
+  text-align: center;
+ 
+}*/
+
+
+
 
