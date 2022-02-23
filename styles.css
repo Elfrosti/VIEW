@@ -49,9 +49,65 @@ img {
 .menu ul li {
   margin: 25px;
 }
-
-
-a:hover {
+.menu .item a:hover {
   border-bottom: 3px solid red;
   color: black;
+}
+
+.card-container .card {
+  display: inline-block;
+  width: 10px;
+  height: 15px;
+  border: 1px;
+  border-color: #333333;
+  font-size: 1.6px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.main-container {
+  padding-left: 17%;
+  padding-top: 7.5rem;
+}
+
+td {
+  padding: 6px 5px;
+}
+
+.centro {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+  color: black;
+}
+
+button {
+  border-color: rgb(199, 27, 27);
+  font-size: medium;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  height: 55px;
+  background-color: white;
+  cursor: pointer;
+}
+
+table {
+  background-color: white;
+  border: 1px solid #3333338f;
+  height: 380px;
+  width: 350;
+}
+.hrcard {
+  width: 100%;
+}
+.header {
+  text-align: center;
+  font-weight: bold;
+}
+
+table tr .centro a {
+  color: rgb(199, 27, 27);
+  text-decoration: none;
 }
