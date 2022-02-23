@@ -3,7 +3,7 @@ body {
 }
 div.header {
   background-color: white;
-  width: 75%;
+  width: 74.5%;
   height: 10.86%;
   position: fixed;
   top: 0px;
@@ -17,4 +17,5 @@ div.sidebar {
   left: 0px;
   position: fixed;
   top: 0px;
+  border-right: 2px solid rgba(241, 241, 241, 0.603);
 }
